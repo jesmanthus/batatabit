@@ -1,0 +1,52 @@
+/*Main: Tablets*/
+.main--table-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.table--container > img {
+  display: none;
+}
+
+.main--table-container .main--table {
+  display: block;
+  width: 320px;
+  margin: 0;
+}
+
+.main--table-title {
+  text-align: center;
+}
+
+/*Main: Benefits*/
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.product-article {
+  width: 410px;
+  margin: 0;
+}
+
+/*Main: Plans*/
+.plans--slider-container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.plan--card-container {
+  display: block;
+  padding-top: 32px;
+}
+
+.plan--card-container:nth-child(2) {
+  padding-top: 0;
+}
