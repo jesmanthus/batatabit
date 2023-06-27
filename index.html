@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Batatabit</title>
   <link rel="shortcut icon" href="./assets/icons/batata.svg" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,700&family=Inter:wght@300;400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
+
 <body>
   <header>
     <img src="./assets/img/logo.svg" alt="">
     <div class="header--title-container">
       <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
       <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-      <a href="#plans" class="header--button">Conoce Nuestros Planes <img src="./assets/icons/down-arrow.svg" alt=""></a>
+      <a href="#plans" class="header--button">Conoce Nuestros Planes <img src="./assets/icons/down-arrow.svg"
+          alt=""></a>
     </div>
   </header>
   <main>
@@ -30,60 +35,63 @@
       </div>
     </section>
     <section class="main--table-container">
-      <div class="main--table coins">
-        <h3 class="main--table-title">Monedas</h3>
-        <div class="table--container">
-          <div class="table">
-            <div class="table--row">
-              <div class="table--item">
-                <p>Bitcoin</p>
+      <img id="slide-left-arrow" src="./assets/icons/right-arrow.svg" alt=""
+        style="transform: scaleX(-1); height: 16px; margin-bottom: 12px; opacity: 0;">
+      <div id="main--table-slider" class="main--table-slider">
+        <div class="main--table coins active">
+          <h3 class="main--table-title">Monedas</h3>
+          <div class="table--container">
+            <div class="table">
+              <div class="table--row">
+                <div class="table--item">
+                  <p>Bitcoin</p>
+                </div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
               </div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-up.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-up.svg" alt=""></div>
+              </div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              </div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              </div>
             </div>
           </div>
-          <img src="./assets/icons/right-arrow.svg" alt="">
+          <p class="main--table-date"><span>Actualizado:</span> 19 Julio 23:45</p>
         </div>
-        <p class="main--table-date"><span>Actualizado:</span> 19 Julio 23:45</p>
-      </div>
-      <div class="main--table commissions">
-        <h3 class="main--table-title">Monedas</h3>
-        <div class="table--container">
-          <div class="table">
-            <div class="table--row">
-              <div class="table--item">
-                <p>Bitcoin</p>
+        <div class="main--table commissions">
+          <h3 class="main--table-title">Commissions</h3>
+          <div class="table--container">
+            <div class="table">
+              <div class="table--row">
+                <div class="table--item">
+                  <p>Bitcoin</p>
+                </div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
               </div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-up.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
-            </div>
-            <div class="table--row">
-              <div class="table--item">Bitcoin</div>
-              <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-up.svg" alt=""></div>
+              </div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              </div>
+              <div class="table--row">
+                <div class="table--item">Bitcoin</div>
+                <div class="table--item">$ 1.96 <img src="./assets/icons/trending-down.svg" alt=""></div>
+              </div>
             </div>
           </div>
-          <img src="./assets/icons/right-arrow.svg" alt="">
+          <p class="main--table-date"><span>Actualizado:</span> 29 Julio 13:46</p>
         </div>
-        <p class="main--table-date"><span>Actualizado:</span> 19 Julio 23:45</p>
       </div>
+      <img id="slide-right-arrow" src="./assets/icons/right-arrow.svg" alt="">
     </section>
     <section class="main--product-container">
       <img src="./assets/icons/batata.svg" alt="">
@@ -103,7 +111,8 @@
           <article class="product-article">
             <img src="./assets/icons/eye.svg" alt="">
             <h3>No hay tasas escondidas</h3>
-            <p>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+            <p>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás
+              adquiriendo.</p>
           </article>
         </div>
         <div class="main-product-article">
@@ -131,31 +140,38 @@
         <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
       </div>
       <div class="plans--slider-container">
-        <article class="plan--card-container">
-          <div class="plan--details">
-            <h3 class="plan--details-title">Pago Anual</h3>
-            <p class="plan--details-price"> <span>$</span> 99</p>
-            <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
-            <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg" alt=""></button>
-          </div>
-        </article>
-        <article class="plan--card-container">
-          <p>Recomendado</p>
-          <div class="plan--details">
-            <h3 class="plan--details-title">Pago Anual</h3>
-            <p class="plan--details-price"> <span>$</span> 99</p>
-            <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
-            <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg" alt=""></button>
-          </div>
-        </article>
-        <article class="plan--card-container">
-          <div class="plan--details">
-            <h3 class="plan--details-title">Pago Anual</h3>
-            <p class="plan--details-price"> <span>$</span> 99</p>
-            <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
-            <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg" alt=""></button>
-          </div>
-        </article>
+        <img id="plans--left-arrow" src="./assets/icons/right-arrow.svg" alt="" style="transform: scaleX(-1);">
+        <div class="cards--slider">
+          <article class="plan--card-container">
+            <div class="plan--details">
+              <h3 class="plan--details-title">Pago Mensual</h3>
+              <p class="plan--details-price"> <span>$</span> 35</p>
+              <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
+              <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg"
+                  alt=""></button>
+            </div>
+          </article>
+          <article class="plan--card-container active">
+            <p>Recomendado</p>
+            <div class="plan--details">
+              <h3 class="plan--details-title">Pago Anual</h3>
+              <p class="plan--details-price"> <span>$</span> 99</p>
+              <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
+              <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg"
+                  alt=""></button>
+            </div>
+          </article>
+          <article class="plan--card-container">
+            <div class="plan--details">
+              <h3 class="plan--details-title">Pago semestral</h3>
+              <p class="plan--details-price"> <span>$</span> 55</p>
+              <p class="plan--details-description">*Ahorras $129 comparado al plan mensual.</p>
+              <button class="plan--details-button">Escoger este <img src="./assets/icons/orange-right-arrow.svg"
+                  alt=""></button>
+            </div>
+          </article>
+        </div>
+        <img id="plans--right-arrow" src="./assets/icons/right-arrow.svg" alt="">
       </div>
     </section>
   </main>
@@ -169,5 +185,7 @@
     </nav>
     <img src="./assets/img/logo-footer.svg" alt="">
   </footer>
+  <script src="./main.js"></script>
 </body>
+
 </html>
